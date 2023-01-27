@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1200px)
+{
+    header{
+        height: 65vh;
+    }
+}
+
+/* FOR 1024 PX */
+@media only screen and (max-width:1024px)
+{
+    .row{
+        margin: 0rem 1.5rem;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .setMainNav{
+        display: none;
+    }
+    .contact_section form{
+        width: 100%;
+        margin-left: 0;
+    }
+    .span_1_of_3{
+        width: 100%;
+    }
+    .span_2_of_3{
+        width: 100%;
+        
+    }
+    .hero-text-box{
+        width: 100%;
+    }
+    .testimonial_section .Box .aboutPerson{
+        text-align: center;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+}
+
+/* FOR 980 PX */
+@media only screen and (max-width: 980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 780px)
+{
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2.2rem;
+    }
+    .span_1_of_7{
+        width: 27.42%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    h1{
+        font-size: 2.5rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .span_1_of_7{
+        width: 41.9%;
+        
+    }
+}
